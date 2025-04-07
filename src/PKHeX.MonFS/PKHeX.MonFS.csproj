@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>PKHeX.MonFS</AssemblyName>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <PackageId>PKHeX.MonFS</PackageId>
+    <Description>A seamless facade to work with Pokemon save files based on PKHeX.Core.</Description>
+    <Authors>Paul Sarda</Authors>
+    <Company>Paul Sarda</Company>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>pokemon;pkhex</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PKHeX.Facade\PKHeX.Facade.csproj" />
+  </ItemGroup>
+</Project>
