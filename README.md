@@ -1,5 +1,7 @@
 # PKHeX Everywhere
 
+This is a hard fork purely to be used with [mon-fs](https://github.com/sardap/mon-fs)
+
 This repository offers 2 different ways of accessing PKHex features in any operating system: a web-based version and a terminal-based version compiled to all major operating systems (macOS, Linux and Windows).
 
 ## PKHeX.Web
